@@ -22,7 +22,7 @@ class Transfer
       self.status = "rejected"
       "Transaction rejected. Please check your account balance."
     else 
-      @sender.withdraw(amount)
+      
       @receiver.deposit(amount)
       self.status = "complete"
     end 
