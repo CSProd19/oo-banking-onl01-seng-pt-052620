@@ -21,6 +21,6 @@ class Transfer
       @status = "rejected"
       return "Transaction rejected. Please check your account balance."
     elsif @status == "complete"
-      
+      puts "Transaction was already excuted"
   end 
 end
